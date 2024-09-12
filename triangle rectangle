@@ -1,0 +1,7 @@
+def est_rectangle(a,b,c):
+   cotés=sorted([a,b,c])
+   return cotés[0]**2+cotés[1]**2==cotés[2]**2
+   
+print(est_rectangle(3,4,5))
+print(est_rectangle(5,6,7))
+
